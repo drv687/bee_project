@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee Picker</title>
+    <script src = "/Bee Project/bee.js"></script>
+    <link rel="stylesheet" href="/Bee Project/styles.css">
+</head>
+<body>
+    <h3>Bee Counter Form</h3>
+    <form onsubmit ="return init()" id="beeform">
+   <label for="beepickernumber" name="beepicker_label" value="Bee Picker Number" id=beenumlabel>Pick the number of bees you want to see</label>
+    <input type="number" name="number" value="number" id="beepickernum" placeholder="0" min="0" max="5">
+    <input type = "submit" name="submit" value ="submit" id="submitbtn" onclick="init()">
+    </form>
+</body>
+</html>
